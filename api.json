@@ -1,10 +1,8 @@
 {
-  "category": "MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/nue",
     "maintainers": [
       {
@@ -18,332 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "nue",
-    "name": "Nue",
-    "aliases": [
-      {
-        "name": "鵺",
-        "language": "Japanese",
-        "region": "Japan",
-        "meaning": "chimeric yokai"
-      }
-    ],
+    "name": "Nue (鵺)",
+    "aliases": [],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Japanese Yokai",
+    "subcategory": "Chimeric Beast",
     "tags": [
-      "yokai",
-      "chimera",
-      "japanese",
-      "shapeshifter",
-      "supernatural",
-      "heian-period",
-      "ominous"
+      "&-cultural-significance"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "A chimeric Japanese yokai with multiple animal parts, famous for bringing misfortune and illness. Best known from the Tale of the Heike where it plagued Emperor Konoe before being slain by warrior Minamoto no Yorimasa.",
-      "full": "The Nue is one of Japan's most fearsome yokai, described as a chimeric creature combining parts from multiple animals. Most commonly depicted with a monkey's head, tanuki (raccoon dog) body, tiger's limbs, and a snake for a tail. Some versions describe it as having the face of a monkey, body of a tiger, snake tail, and the voice of a white thrush bird. The Nue appears as a black cloud and brings supernatural illness, nightmares, and misfortune. Its most famous appearance was during the Heian period when it caused Emperor Konoe's mysterious illness in the 12th century, until the legendary warrior Minamoto no Yorimasa shot it down. The creature symbolizes chaos, supernatural pestilence, and ominous portents in Japanese folklore."
+      "summary": "The Nue is one of Japan's most fearsome yokai, described as a chimeric creature combining parts from multiple animals.",
+      "full": "The Nue is one of Japan's most fearsome yokai, described as a chimeric creature combining parts from multiple animals. Most commonly depicted with a **monkey's head**, **tanuki (raccoon dog) body**, **tiger's limbs**, and a **snake for a tail**. Some versions describe it as having the face of a monkey, body of a tiger, snake tail, and the voice of a white thrush bird. The Nue appears as a black cloud and brings supernatural illness, nightmares, and misfortune. Its most famous appearance was during the Heian period when it caused Emperor Konoe's mysterious illness in the 12th century, until the legendary warrior **Minamoto no Yorimasa** shot it down with an arrow. The creature symbolizes chaos, supernatural pestilence, and ominous portents in Japanese folklore."
     },
     "etymology": {
-      "origin": "From Japanese folklore, first appearing in written records during the Heian period (794-1185). Prominently featured in The Tale of the Heike (Heike Monogatari).",
-      "meaning": "The name 'nue' originally referred to a type of bird (possibly a white-rumped swift or thrush) known for its eerie cry",
-      "first_use": "Heian period (794-1185)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Yokai",
-      "subtype": "Chimeric Beast",
-      "variant": "Japanese"
+      "type": "Chimeric Beast",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "chimera",
-        "name": "Chimera",
-        "relationship": "similar",
-        "description": "Greek chimeric creature with mixed animal parts"
-      },
-      {
-        "id": "manticore",
-        "name": "Manticore",
-        "relationship": "similar",
-        "description": "Persian chimeric beast with mixed features"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "components": [
-        {
-          "part": "Head",
-          "description": "Monkey's head with simian features",
-          "frequency": "always"
-        },
-        {
-          "part": "Body",
-          "description": "Tanuki (raccoon dog) body",
-          "frequency": "common"
-        },
-        {
-          "part": "Limbs",
-          "description": "Tiger's legs and claws",
-          "frequency": "common"
-        },
-        {
-          "part": "Tail",
-          "description": "Snake tail, often depicted as writhing",
-          "frequency": "always"
-        }
-      ],
-      "alternative_descriptions": [
-        "Face of monkey, body of tiger, snake tail, voice of white thrush",
-        "Sometimes depicted with tanuki body instead of tiger"
-      ],
-      "features": [
-        {
-          "feature": "Cloud form",
-          "description": "Can appear as or transform into a black cloud",
-          "frequency": "common"
-        },
-        {
-          "feature": "Unearthly cry",
-          "description": "Eerie thrush-like cry that announces presence",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Chimeric quadruped combining features of multiple animals in an unnatural amalgamation"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Transforms into a black cloud to conceal true form",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Supernatural illness",
-        "description": "Causes mysterious diseases and afflictions",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Nightmare induction",
-        "description": "Brings nightmares and psychological torment",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Eerie vocalization",
-        "description": "Produces unsettling thrush-like cry",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "malevolent",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "palace grounds",
-        "temples",
-        "dark clouds",
-        "mountainous areas"
-      ],
-      "diet": "Unknown (supernatural being)",
-      "patterns": [
-        "Appears as ominous portent",
-        "Targets people of high status",
-        "Manifests during times of political unrest",
-        "Associated with pestilence and misfortune"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Traditional Japanese folklore, particularly associated with Heian period Kyoto and imperial court.",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Kyoto",
-        "Imperial Palace grounds",
-        "Mountainous regions"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "794-1185",
+        "date": "Unknown",
         "circa": true,
-        "source": "Heian period literature"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "12th century",
-          "description": "Emperor Konoe incident and the Tale of the Heike"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Japanese yokai tradition from the Heian period, reflecting fears of supernatural pestilence and political instability during imperial court intrigues.",
-      "earliest_accounts": "The Tale of the Heike (Heike Monogatari), chronicling the Genpei War and earlier Heian period events.",
-      "folklore_connections": "Part of broader Japanese yokai tradition and chimeric beast mythology found across cultures."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1153",
-        "event": "Emperor Konoe's mysterious illness",
-        "significance": "Nue allegedly appears nightly as black cloud, causing the Emperor's affliction",
-        "source": "The Tale of the Heike"
-      },
-      {
-        "date": "1153",
-        "event": "Minamoto no Yorimasa slays the Nue",
-        "significance": "Legendary warrior shoots down the creature with an arrow, ending the curse",
-        "source": "The Tale of the Heike"
-      },
-      {
-        "date": "13th century",
-        "event": "Tale of the Heike compiled",
-        "significance": "Story immortalized in epic war chronicle",
-        "source": "Heike Monogatari"
-      }
-    ],
-    "modern_era": "The Nue remains a popular figure in Japanese culture, appearing in yokai collections, video games (particularly the Final Fantasy series), anime, and manga. It symbolizes the chimeric and chaotic nature of supernatural threats."
+    "timeline": []
   },
-
-  "famous_encounters": {
-    "notable": [
-      {
-        "id": "nue-emperor-konoe",
-        "name": "Emperor Konoe's Affliction",
-        "date": {
-          "value": "1153",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Imperial Palace, Kyoto",
-          "country": "Japan",
-          "region": "Kyoto"
-        },
-        "participants": {
-          "afflicted": "Emperor Konoe",
-          "hero": "Minamoto no Yorimasa",
-          "witness_count": "Imperial court"
-        },
-        "description": "A black cloud appeared nightly above the Imperial Palace, and Emperor Konoe fell mysteriously ill with terrible nightmares. The legendary warrior Minamoto no Yorimasa was summoned. On a dark night, he shot an arrow into the black cloud. The Nue fell to earth, revealing its chimeric form. The Emperor's illness immediately ceased. The creature's body was placed in a boat and sent down the river.",
-        "outcome": "Nue slain, Emperor recovered",
-        "credibility": {
-          "rating": "folklore",
-          "notes": "Legendary account from historical epic; reflects cultural beliefs about supernatural illness"
-        },
-        "sources": [
-          "The Tale of the Heike (Heike Monogatari)"
-        ],
-        "featured": true
-      }
-    ]
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Heian period yokai lore",
-        "Imperial court supernatural accounts",
-        "Chimeric beast traditions"
-      ],
-      "stories": [
-        "The Nue and Emperor Konoe",
-        "Minamoto no Yorimasa's valor"
-      ],
-      "beliefs": "The Nue symbolizes supernatural chaos and pestilence, particularly associated with political turmoil and imperial misfortune."
-    },
-    "japanese_cultural_context": {
-      "significance": "Important example of Heian period yokai, representing fears of supernatural illness and the role of warriors in protecting the imperial court from supernatural threats.",
-      "sensitivity_note": "The Nue is part of traditional Japanese cultural heritage. Approach with respect for Japanese folklore traditions.",
-      "symbolism": [
-        "Ominous portent of disaster",
-        "Supernatural pestilence",
-        "Chaos and political instability",
-        "The unnatural and chimeric"
-      ]
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "The Tale of the Heike (Heike Monogatari)",
-        "Various yokai encyclopedias and illustrated scrolls"
-      ],
-      "games": [
-        "Final Fantasy series (recurring summon/enemy)",
-        "Nioh (video game)",
-        "Various Japanese RPGs"
-      ],
-      "anime_manga": [
-        "Numerous yokai-themed anime and manga",
-        "Yu Yu Hakusho",
-        "Nura: Rise of the Yokai Clan"
-      ],
-      "other": [
-        "Traditional Japanese art and woodblock prints",
-        "Yokai museum exhibits"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "theories": {
-    "folkloric": [
-      {
-        "name": "Supernatural pestilence manifestation",
-        "description": "The Nue represents the personification of disease and misfortune",
-        "evidence_cited": ["Association with Emperor's illness", "Black cloud symbolism"]
-      },
-      {
-        "name": "Political allegory",
-        "description": "May represent political enemies or chaos threatening the imperial court",
-        "evidence_cited": ["Appears during times of instability", "Defeated by loyal warrior"]
-      }
-    ],
-    "naturalistic": [
-      {
-        "name": "Misidentified bird or animal",
-        "description": "Original 'nue' was a bird with an eerie cry, later elaborated into chimeric monster",
-        "evidence_cited": ["Name originally meant a type of bird", "Thrush-like cry in descriptions"]
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "heike-monogatari",
-      "type": "classical_literature",
-      "title": "The Tale of the Heike (Heike Monogatari)",
-      "date": "13th century",
-      "description": "Epic account of the Genpei War, includes the famous Nue episode"
-    },
-    {
-      "id": "yokai-culture",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "yokai-attack",
-      "type": "book",
-      "title": "Yokai Attack! The Japanese Monster Survival Guide",
-      "authors": ["Hiroko Yoda", "Matt Alt"],
-      "publication": "Tuttle Publishing",
-      "date": "2008",
-      "isbn": "978-4805310359"
-    }
-  ]
+  "sources": []
 }
